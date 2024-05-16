@@ -5,14 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Rock Paper Scissors Game </h1>
-    <h2>Note:</h2>
-    <h3>To play this game, open inspect>console in chrome.</h3>
+
+    <p class="about">This game contains five round. you can select your choice by pressing one button from below.<p>
+        <div class="container">
+            <div class="choice">
+                <h3>Select your Choice:</h3>
+                <div class="btns">
+                    <button id="btn1" value="rock">Rock</button>
+                    <button id="btn2" value="paper">Paper</button>
+                    <button id="btn3" value="scissor">Scissor</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="main">
+            <h4>Score Details:</h4>
+            <div class="selection">
+                <h3 id="round">Round: 0</h3>
+                <p id="human">Your choice is:null</p>
+                <p id="computer">Computer choice is:null</p>
+                <p id="rule"></p>
+            </div>
+            
+                <p id="humanscore">Your's score=0</p>
+                <p id="computerscore">computer's score=0</p>
+                <p id="end"></p>
+
+        </div>
+     <div class="playagain">Click on <a href="index.html">PLAY AGAIN</a> to Restart the game!</div>   
+        
 </body>
 
+<script src="script.js"></script>
 
 
 
