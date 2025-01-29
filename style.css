@@ -1,64 +1,86 @@
-body{
-    background-color: lightgreen;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  background-color: lightgreen;
+  font-family: Arial, Helvetica, sans-serif;
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
-.about{
-    font-weight: bold;
-    text-align: center;
+.about {
+  font-weight: bold;
+  text-align: center;
 }
-.choice{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
+.choice {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
 }
-.btns{
-    display: flex;
-    gap: 20px;
+.btns {
+  display: flex;
+  gap: 20px;
 }
-#btn1,#btn2,#btn3{
-background-color: blue;
-color: white;
-border: 2px solid white;
-border-radius: 20px;
-width: 80px;
-font-weight: bold;
-}
-div.main{
- margin-top: 20px;
- /* border: 2px solid black; */
- padding: 20px;
- background-color: lightblue;
-}
-#round{
-    text-align: center;
-    text-decoration:underline;
-}
-#human,#computer,#humanscore,#computerscore{
-    font-size: large;
-    text-align: center;
-}
-#rule,#end{
-    font-size: larger;
-    font-weight: bold;
-    text-align: center;
-}
-.playagain{
-    margin-top: 10px;
-    text-align: center;
-    font-weight: bold;
-}
-.playagain a{
-    font-style: italic;
-    text-decoration: none;
-    font-weight: bold;
 
+#btn1,
+#btn2,
+#btn3 {
+  background-color: blue;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 80px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#btn1:hover {
+  background-color: aqua;
+  color: black;
+}
+
+#btn2:hover {
+  background-color: aqua;
+  color: black;
+}
+
+#btn3:hover {
+  background-color: aqua;
+  color: black;
+}
+div.main {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: lightblue;
+}
+#round {
+  text-align: center;
+  text-decoration: underline;
+}
+#human,
+#computer,
+#humanscore,
+#computerscore {
+  font-size: large;
+  text-align: center;
+}
+#rule,
+#end {
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+.playagain {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.playagain a {
+  font-style: italic;
+  text-decoration: none;
+  font-weight: bold;
 }
 @media screen and (min-width: 320px) {
-    #btn1,#btn2,#btn3{
-        padding: 15px;
-        } 
+  #btn1,
+  #btn2,
+  #btn3 {
+    padding: 15px;
+  }
 }

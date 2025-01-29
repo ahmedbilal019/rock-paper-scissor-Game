@@ -1,48 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-    <h1>Rock Paper Scissors Game </h1>
+  <body>
+    <h1>Rock Paper Scissors Game</h1>
 
-    <p class="about">This game contains five round. you can select your choice by pressing one button from below.<p>
-        <div class="container">
-            <div class="choice">
-                <h3>Select your Choice:</h3>
-                <div class="btns">
-                    <button id="btn1" value="rock">Rock</button>
-                    <button id="btn2" value="paper">Paper</button>
-                    <button id="btn3" value="scissor">Scissor</button>
-                </div>
-
-            </div>
+    <div class="container">
+      <div class="choice">
+        <h3>Select your Choice:</h3>
+        <div class="btns">
+          <button id="btn1" value="rock">Rock</button>
+          <button id="btn2" value="paper">Paper</button>
+          <button id="btn3" value="scissor">Scissor</button>
         </div>
-        <div class="main">
-            <h4>Score Details:</h4>
-            <div class="selection">
-                <h3 id="round">Round: 0</h3>
-                <p id="human">Your choice is:null</p>
-                <p id="computer">Computer choice is:null</p>
-                <p id="rule"></p>
-            </div>
-            
-                <p id="humanscore">Your's score=0</p>
-                <p id="computerscore">computer's score=0</p>
-                <p id="end"></p>
+      </div>
+    </div>
+    <div class="main">
+      <h4>Score Details:</h4>
+      <div class="selection">
+        <h3 id="round">Round: 0</h3>
+        <p id="human">Your choice:</p>
+        <p id="computer">Computer choice:</p>
+        <p id="rule"></p>
+      </div>
 
-        </div>
-     <div class="playagain">Click on <a href="index.html">PLAY AGAIN</a> to Restart the game!</div>   
-        
-</body>
+      <p id="humanscore">Your's score=0</p>
+      <p id="computerscore">computer's score=0</p>
+      <p id="end"></p>
+    </div>
+    <div class="playagain"><a href="index.html">PLAY AGAIN</a></div>
+  </body>
 
-<script src="script.js"></script>
-
-
-
+  <script src="script.js"></script>
 </html>
