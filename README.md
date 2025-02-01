@@ -7,8 +7,8 @@ The game contains FIVE rounds. Once five rounds will be completed, you are unabl
 To play it again, you need to click on "play again" and the game will be restart. 
 
 # Explaination Regarding score rules:
-Rock beats scissors: Rock is strong enough to break scissors
-Scissors beats paper: Scissors can cut paper
-Paper beats rock: Paper can cover rock
+Rock beats scissors: Rock is strong enough to break scissors  
+Scissors beats paper: Scissors can cut paper  
+Paper beats rock: Paper can cover rock  
 
 live Preview:https://ahmedbilal019.github.io/rock-paper-scissor-Game
